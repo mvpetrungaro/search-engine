@@ -10,7 +10,7 @@ This program was written in Java and made available as an executable jar file. T
 
 The restaurants and cuisines used by the program are included in csv files inside the program itself, at the root of the jar file.
 
-You can download this program [here](https://github.com/mvpetrungaro/search-engine/blob/main/bin/search-engine.jar).
+You can download this program [here](https://github.com/mvpetrungaro/search-engine/raw/main/bin/search-engine.jar).
 
 ## Source code
 The program's source code can be found [here](httsp://github.com/mvpetrungaro/search-engine/). It was built with [Maven](https://maven.apache.org/) and relies on the following libraries:
