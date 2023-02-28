@@ -6,20 +6,22 @@ A simple restaurants search engine that takes up to 5 parameters:
 - The average price of the restaurant, which is treated as an integer number;
 - The restaurant's cuisine, which is matched using a `contains` approach.
 
-This program was written in Java and made available as an executable jar file. To run it you'll need to have installed on you computer Java version 8 or grater.
+This program was written in Java and made available as an runnable jar. To run it you'll need to have installed on you computer Java version 8 or grater.
 
-The restaurants and cuisines used by the program are included in csv files inside the program itself, at the root of the jar file.
+The restaurants and cuisines used by the program are included in csv files inside the program itself, at the root of the jar file. You can also reach the files from the source code, as shown later in this document.
 
-You can download this program [here](https://drive.google.com/).
+You can download this program [here](https://github.com/mvpetrungaro/search-engine/raw/main/bin/search-engine.jar).
 
 ## Source code
-The program's source code can be found [here](httsp://github.com/mvpetrungaro). It was built with [Maven](https://maven.apache.org/) and relies on the following libraries:
+The program's source code can be found [here](https://github.com/mvpetrungaro/search-engine/). It was built with [Maven](https://maven.apache.org/) and relies on the following libraries:
 
 - [Apache Commons CLI](https://commons.apache.org/proper/commons-cli/)
 - [OpenCSV](https://opencsv.sourceforge.net/)
 - [Project Lombok](https://opencsv.sourceforge.net/)
 
 To run it, you won't need to install any of those, since it was built including all it's dependencies.
+
+The files including the restaurants and cuisines are available at the resources folder of the program, [here](https://github.com/mvpetrungaro/search-engine/tree/main/src/main/resources).
 
 ## Usage
 This program can be run with the following command:
